@@ -119,12 +119,11 @@ import ButtonExample from './components/ButtonEx';
 import DisplayImage from './components/ImgEx';
 import ScrollViewEx from './components/ScrollViewEx';
 import UselessTextInput from './components/TextInputEx';
+import TouchableOpacityEx from './components/TouchableOpacityEx';
 
 const App = () => {
   return (
-    <SafeAreaView>
-    <UselessTextInput/>
-    </SafeAreaView>
+    <TouchableOpacityEx/>
   );
 }; 
 //BurronExample 컴포넌트의 경우, View로 감싸면 안나옴
