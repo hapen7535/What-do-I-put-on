@@ -116,12 +116,13 @@ import LotsOfStyles from './components/StyleEx';
 import  ViewBoxes from './components/ViewEx';
 import TextExample from './components/TextEx';
 import ButtonExample from './components/ButtonEx';
+import DisplayImage from './components/ImgEx';
 
 const App = () => {
   return (
-    <>
-    <ButtonExample/>
-    </>
+    <SafeAreaView>
+    <DisplayImage/>
+    </SafeAreaView>
   );
 }; 
 //BurronExample 컴포넌트의 경우, View로 감싸면 안나옴
