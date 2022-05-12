@@ -111,20 +111,20 @@
 
 
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, SafeAreaView} from 'react-native';
 import LotsOfStyles from './components/StyleEx';
 import  ViewBoxes from './components/ViewEx';
 import TextExample from './components/TextEx';
+import ButtonExample from './components/ButtonEx';
 
 const App = () => {
   return (
-    <View>
-
-    <TextExample/>
-
-    </View>
+    <>
+    <ButtonExample/>
+    </>
   );
-};
+}; 
+//BurronExample 컴포넌트의 경우, View로 감싸면 안나옴
 
 const styles = StyleSheet.create({
   container: {
