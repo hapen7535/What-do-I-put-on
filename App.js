@@ -117,11 +117,12 @@ import  ViewBoxes from './components/ViewEx';
 import TextExample from './components/TextEx';
 import ButtonExample from './components/ButtonEx';
 import DisplayImage from './components/ImgEx';
+import ScrollViewEx from './components/ScrollViewEx';
 
 const App = () => {
   return (
     <SafeAreaView>
-    <DisplayImage/>
+    <ScrollViewEx/>
     </SafeAreaView>
   );
 }; 
