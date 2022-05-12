@@ -118,11 +118,12 @@ import TextExample from './components/TextEx';
 import ButtonExample from './components/ButtonEx';
 import DisplayImage from './components/ImgEx';
 import ScrollViewEx from './components/ScrollViewEx';
+import UselessTextInput from './components/TextInputEx';
 
 const App = () => {
   return (
     <SafeAreaView>
-    <ScrollViewEx/>
+    <UselessTextInput/>
     </SafeAreaView>
   );
 }; 
