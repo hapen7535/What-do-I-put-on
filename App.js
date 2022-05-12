@@ -112,13 +112,14 @@
 
 import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
+import LotsOfStyles from './components/StyleEx';
 import  ViewBoxes from './components/ViewEx';
 
 const App = () => {
   return (
     <View>
 
-    <ViewBoxes/>
+    <LotsOfStyles/>
 
     </View>
   );
